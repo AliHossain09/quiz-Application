@@ -31,4 +31,11 @@ foreach ($questions as $index => $question) {
     $userAnswers[] = $answer;
 }
 
+
+$score = evaluateQuiz($questions, $userAnswers);
+
+//score Display
+echo "You scored $score out of " . count($questions) . ".\n";
+
+
 ?>
