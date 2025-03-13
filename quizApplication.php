@@ -21,4 +21,7 @@ $questions = [
     ['question' => 'Who wrote "Hamlet"?', 'correct' => 'Shakespeare'],
 ];
 
+//empty array to store answers
+$userAnswers = [];
+
 ?>
