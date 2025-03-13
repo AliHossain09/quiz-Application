@@ -24,4 +24,11 @@ $questions = [
 //empty array to store answers
 $userAnswers = [];
 
+// Ask question and collect answer section
+foreach ($questions as $index => $question) {
+    echo ($index + 1) . ". " . $question['question'] . "\n";
+    $answer = readline("Your answer: ");
+    $userAnswers[] = $answer;
+}
+
 ?>
