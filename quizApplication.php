@@ -13,4 +13,12 @@ function evaluateQuiz(array $questions, array $answers): int {
 
     return $score;
 }
+
+//  questions array with  the correct answer
+$questions = [
+    ['question' => 'What is 2 + 2?', 'correct' => '4'],
+    ['question' => 'What is the capital of France?', 'correct' => 'Paris'],
+    ['question' => 'Who wrote "Hamlet"?', 'correct' => 'Shakespeare'],
+];
+
 ?>
