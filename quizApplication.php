@@ -37,5 +37,14 @@ $score = evaluateQuiz($questions, $userAnswers);
 //score Display
 echo "You scored $score out of " . count($questions) . ".\n";
 
+//feedback  the score
+if ($score === count($questions)) {
+    echo "Excellent job!\n";
+} elseif ($score > count($questions) / 2) {
+    echo "Good effort!\n";
+} else {
+    echo "Better luck next time!\n";
+}
+
 
 ?>
